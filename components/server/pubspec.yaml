@@ -17,6 +17,8 @@ dependencies:
   path: ^1.8.0
   rxdart: ^0.27.3
   universal_io: ^2.0.4
+
+  mno_commons:
     git:
       url: https://github.com/RamaArif/iridium
       path: components/commons
