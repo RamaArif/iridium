@@ -31,9 +31,15 @@ dependencies:
   url_launcher: ^6.0.18
   uuid: ^3.0.5
   mno_commons:
-    path: ../commons
+    git:
+      url: https://github.com/RamaArif/iridium
+      path: components/commons
+      ref: main
   mno_shared:
-    path: ../shared
+    git:
+      url: https://github.com/RamaArif/iridium
+      path: components/shared
+      ref: main
 
 dev_dependencies:
   test: ^1.20.1
