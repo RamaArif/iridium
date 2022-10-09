@@ -13,31 +13,37 @@ dependencies:
     sdk: flutter
     
   mno_commons:
+    git:
     url: https://github.com/RamaArif/iridium
     path: reader_view/components/commons
     ref: main
     
   mno_navigator:
+    git:
     url: https://github.com/RamaArif/iridium
     path: reader_view/components/navigator
     ref: main
     
   mno_server:
+    git:
     url: https://github.com/RamaArif/iridium
     path: reader_view/components/server
     ref: main
     
   mno_streamer:
+    git:
     url: https://github.com/RamaArif/iridium
     path: reader_view/components/streamer
     ref: main
     
   mno_opds:
+    git:
     url: https://github.com/RamaArif/iridium
     path: reader_view/components/opds
     ref: main
     
   mno_shared:
+    git:
     url: https://github.com/RamaArif/iridium
     path: reader_view/components/shared
     ref: main
