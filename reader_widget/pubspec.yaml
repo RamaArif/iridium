@@ -11,43 +11,36 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-    
   mno_commons:
     git:
       url: https://github.com/RamaArif/iridium
       path: components/commons
       ref: main
-    
   mno_navigator:
     git:
       url: https://github.com/RamaArif/iridium
       path: components/navigator
       ref: main
-    
   mno_server:
     git:
       url: https://github.com/RamaArif/iridium
       path: components/server
       ref: main
-    
   mno_streamer:
     git:
       url: https://github.com/RamaArif/iridium
       path: components/streamer
       ref: main
-    
   mno_opds:
     git:
       url: https://github.com/RamaArif/iridium
       path: components/opds
       ref: main
-    
   mno_shared:
     git:
       url: https://github.com/RamaArif/iridium
       path: components/shared
       ref: main
-    
   cupertino_icons: ^1.0.4
   provider: ^6.0.2
   shared_preferences: ^2.0.12
