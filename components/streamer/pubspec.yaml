@@ -14,11 +14,17 @@ dependencies:
   image: ^3.1.1
   path: ^1.8.0
   universal_io: ^2.0.4
-  xml: ^5.3.1
+  xml: ^5.3.1  
   mno_commons:
-    path: ../commons
+    git:
+      url: https://github.com/RamaArif/iridium
+      path: reader_view/components/commons
+      ref: main
   mno_shared:
-    path: ../shared
+    git:
+      url: https://github.com/RamaArif/iridium
+      path: reader_view/components/shared
+      ref: main
 
 dev_dependencies:
   lints: ^1.0.1
