@@ -18,12 +18,12 @@ dependencies:
   mno_commons:
     git:
       url: https://github.com/RamaArif/iridium
-      path: reader_view/components/commons
+      path: components/commons
       ref: main
   mno_shared:
     git:
       url: https://github.com/RamaArif/iridium
-      path: reader_view/components/shared
+      path: components/shared
       ref: main
 
 dev_dependencies:
