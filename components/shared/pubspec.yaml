@@ -23,7 +23,10 @@ dependencies:
   universal_io: ^2.0.4
   xml: ^5.3.1
   mno_commons:
-    path: ../commons
+    git:
+      url: https://github.com/RamaArif/iridium
+      path: components/commons
+      ref: main
 
 dev_dependencies:
   image_compare: ^1.1.2
