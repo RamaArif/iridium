@@ -12,17 +12,29 @@ dependencies:
   flutter:
     sdk: flutter
   mno_commons:
-    path: ../components/commons
+    url: https://github.com/RamaArif/iridium
+    path: reader_view/components/commons
+    ref: main
   mno_navigator:
-    path: ../components/navigator
+    url: https://github.com/RamaArif/iridium
+    path: reader_view/components/navigator
+    ref: main
   mno_server:
-    path: ../components/server
+    url: https://github.com/RamaArif/iridium
+    path: reader_view/components/server
+    ref: main
   mno_streamer:
-    path: ../components/streamer
+    url: https://github.com/RamaArif/iridium
+    path: reader_view/components/streamer
+    ref: main
   mno_opds:
-    path: ../components/opds
+    url: https://github.com/RamaArif/iridium
+    path: reader_view/components/opds
+    ref: main
   mno_shared:
-    path: ../components/shared
+    url: https://github.com/RamaArif/iridium
+    path: reader_view/components/shared
+    ref: main
   cupertino_icons: ^1.0.4
   provider: ^6.0.2
   shared_preferences: ^2.0.12
