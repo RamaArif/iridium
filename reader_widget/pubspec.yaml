@@ -15,7 +15,7 @@ dependencies:
   mno_commons:
     git:
       url: https://github.com/RamaArif/iridium
-      path: reader_view/components/commons
+      path: components/commons
       ref: main
     
   mno_navigator:
